@@ -1,11 +1,12 @@
 # :sparkles: Problem-Solving
-A repository to enable students to look into problem solving and enhance their coding skills simultaneously. The repository is designed to help beginners learn programming in various languages, and includes a collection of code and programs. 
+A collection of all the coding problems we tend to face during our 4 years of academic journey.
 
 **Contributors:**
 
 - Hammad Rashid
 - Laiba Rashid
 - Harris Rashid
+- DevQA2001
 
 ## :wrench: Languages
 <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg"  title="Python" alt="Python" width="40" height="40"/>&nbsp;
