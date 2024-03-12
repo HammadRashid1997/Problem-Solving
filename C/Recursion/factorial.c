@@ -8,4 +8,10 @@ int factorial(int n) {
 }
 
 int main() {
-  
+  int n;
+  printf("Enter the value of n: ");
+  scanf("%d", &n);
+  int fact = factorial(n);
+  printf("Factorial is: %d", &fact);
+  return 0;
+}
