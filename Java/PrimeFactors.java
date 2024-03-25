@@ -1,4 +1,4 @@
-import java.util.Scanner;       // scanner class to take input from the user
+import java.util.Scanner;     
 
 // PrimeFactors class
 public class PrimeFactors {
