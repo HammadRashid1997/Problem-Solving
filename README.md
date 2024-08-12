@@ -1,5 +1,4 @@
 # :sparkles: Problem-Solving
-A collection of all the coding problems we tend to face during our 4 years of academic journey.
 
 **Contributors:**
 
