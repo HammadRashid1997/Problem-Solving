@@ -5,7 +5,10 @@
 - Hammad Rashid
 - Laiba Rashid
 - Harris Rashid
-- DevQA2001 
+- DevQA2001
+
+## Introduction
+A repository aimed at solving some common problems that are faced by a majority of university students.
 
 ## :wrench: Languages
 <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg"  title="Python" alt="Python" width="40" height="40"/>&nbsp;
