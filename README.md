@@ -1,5 +1,7 @@
 # :sparkles: Problem-Solving
-A collection of all the coding problems we tend to face during our 4 years of academic journey.
+
+## Introduction
+A repository aimed at solving some common problems that are faced by a majority of university students.
 
 ## :wrench: Languages
 <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg"  title="Python" alt="Python" width="40" height="40"/>&nbsp;
