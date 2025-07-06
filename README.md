@@ -5,7 +5,6 @@
 - Hammad Rashid
 - Laiba Rashid
 - Harris Rashid
-- DevQA2001
 
 ## Introduction
 A repository aimed at solving some common problems that are faced by a majority of university students.
