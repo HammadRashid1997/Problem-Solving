@@ -1,7 +1,5 @@
 # :sparkles: Problem-Solving
 
-**Contributors:**
-
 ## Introduction
 A repository aimed at solving some common problems that are faced by a majority of university students.
 
