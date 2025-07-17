@@ -1,6 +1,5 @@
 import java.util.Scanner;     
 
-// PrimeFactors class
 public class PrimeFactors {
 // main function
     public static void main(String[] args) {
@@ -17,4 +16,4 @@ public class PrimeFactors {
          }
       }
    }
-}   // end of the class
+}
