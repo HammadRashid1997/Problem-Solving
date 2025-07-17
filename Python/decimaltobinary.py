@@ -1,4 +1,3 @@
-# Function to convert deimal to binary
 def decimal_to_binary(decimal_num):
     binary_num = ''
     
