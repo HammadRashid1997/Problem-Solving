@@ -1,4 +1,3 @@
-// Main class
 class min {
     public static void main(String[] args) {
         int[] arr = {5, 9, 2, 4, 7};
