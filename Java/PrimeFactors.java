@@ -7,11 +7,10 @@ public class PrimeFactors {
       int number = scanner.nextInt();
       System.out.print("Prime factors of " + number + " are: ");
       
-      // a loop to run for the prime numbers
       for (int i = 2; i <= number; i++) {
-         while (number % i == 0) {  // check if number % i == 0
+         while (number % i == 0) {  
             System.out.print(i + " ");
-            number = number / i;    // divides number with i and stores the result in number
+            number = number / i;
          }
       }
    }
