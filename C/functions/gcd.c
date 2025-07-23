@@ -1,8 +1,5 @@
-// Code here
-
 #include <stdio.h>
 
-// Greatest common divisior
 int gcd(int a, int b) {
     if (b == 0) {
         return a;
@@ -15,8 +12,6 @@ int gcd(int a, int b) {
     }
 }
 
-
-// Main program
 int main() {
     int A, B;
     printf("Enter the first number: ");
