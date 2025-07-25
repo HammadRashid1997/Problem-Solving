@@ -16,7 +16,6 @@ void GuesstheQuad(int x, int y) {
   }
 }
 
-// Main driver
 int main() {
   int x, y;
   cout << "Enter x: ";
@@ -24,7 +23,5 @@ int main() {
   cout << "Enter y: ";
   cin >> y;
   GuesstheQuad(x, y);
-    
-  
   return 0; 
 }
