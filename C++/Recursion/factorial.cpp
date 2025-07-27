@@ -8,14 +8,10 @@ int factorial(int n) {
   return n * factorial(n - 1);
 }
 
-
 int main() {
   int n;
   cout << "Enter the number: ";
   cin >> n;
-  int fact = factorial(n);
-  cout << "The factorial is: " << fact << endl;
-  
-  
+  cout << "The factorial is: " << factorial(n) << endl;
   return 0;
 }
