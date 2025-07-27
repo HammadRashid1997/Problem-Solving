@@ -1,11 +1,36 @@
 #include <iostream>
 using namespace std;
 
-void input(char array[20]);
-void display(char array[20]);
-void capitalize(char array[20]);
-bool isValidSequence(char array[20]);
-void displayHistogram(int count);
+// Functions
+void input(char array[20]) {
+    for (int i = 0; i < 20; i++) {
+        cout << "Enter the nucleotide at index " << i << ": ";
+        cin >> array[i];
+    }
+}
+
+void display(char array[20]) {
+    for (int i = 0; i < 20; i++) {
+        capitalize(array);
+        cout << array[i] << ' ';
+    }
+    cout << "\n";
+}
+
+void capitalize(char array[20]) {
+    for (int i = 0; i < 20; i++) {
+        if (array[i] >= 97 && array[i] <= 132) {
+            array[i] = array[i] - 32;
+        }
+    }
+}
+
+void displayHistogram(int count) {
+    for (int i = 0; i < count; i++) {
+        cout << "*";
+    }
+    cout << "\n";
+}
 
 int main() {
     char array[20];
@@ -52,35 +77,4 @@ int main() {
     cout << "\n";
 
     return 0;
-}
-
-// Functions
-void input(char array[20]) {
-    for (int i = 0; i < 20; i++) {
-        cout << "Enter the nucleotide at index " << i << ": ";
-        cin >> array[i];
-    }
-}
-
-void display(char array[20]) {
-    for (int i = 0; i < 20; i++) {
-        capitalize(array);
-        cout << array[i] << ' ';
-    }
-    cout << "\n";
-}
-
-void capitalize(char array[20]) {
-    for (int i = 0; i < 20; i++) {
-        if (array[i] >= 97 && array[i] <= 132) {
-            array[i] = array[i] - 32;
-        }
-    }
-}
-
-void displayHistogram(int count) {
-    for (int i = 0; i < count; i++) {
-        cout << "*";
-    }
-    cout << "\n";
 }
