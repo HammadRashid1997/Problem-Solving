@@ -1,24 +1,26 @@
+// Decimal to Binary conversion for positive integers
+
 #include <iostream>
 using namespace std;
 
+void decimalToBinaryConversion(int number) {
+  int binnum[32];
+  int i = 0;
+  while(number > 0) {
+    binnum[i] = number % 2;
+    number = number / 2;
+    i++;
+  }
+  cout << "Binary number is: ";
+  for(int j = i - 1; j >= 0; j--) {
+    cout << binnum[j];
+  }
+}
 
 int main() {
   int n;
   cout << "Enter the number: ";
   cin >> n;
-  
-  int binnum[32];
-  int i = 0;
-  while(n > 0) {
-    binnum[i] = n % 2;
-    n = n / 2;
-    i++;
-  }
-  
-  cout << "Binary number is: ";
-  for(int j = i - 1; j >= 0; j--) {
-    cout << binnum[j];
-  }
-  
+  decimalToBinaryConversion(n);
   return 0;
 }

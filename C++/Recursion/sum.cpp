@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Function to calculate sum
 int Sum(int n) {
   int sum = n;
   if(n == 0 || n == 1) {
@@ -12,7 +11,6 @@ int Sum(int n) {
   }
 }
 
-// Main driver here
 int main() {
   int n;
   cout << "Enter the number: ";
